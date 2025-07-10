@@ -1,0 +1,32 @@
+.readmore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.readmore-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 30px;
+    width: 80%;
+    max-width: 1100px;
+}
+
+.readmore .about-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.readmore .about-content h3 {
+    text-align: left;
+}
+
+.readmore .about-content p {
+    text-align: left;
+    margin-top: 10px;
+}
